@@ -1,0 +1,23 @@
+skinparam {
+    DPI 200
+    Shadowing false
+    DefaultFontName IBM Plex Sans
+    DefaultMonospacedFontName IBM Plex Mono
+    DefaultFontColor black
+    DefaultFontSize 14
+}
+
+skinparam class {
+    BackgroundColor #FFFFFF
+    BorderColor #444444
+    ArrowColor #EA6A3D
+    AttributeIconSize 0
+    BorderThickness 1
+    HeaderBackgroundColor #EEEEEE
+}
+
+skinparam package {
+    BackgroundColor #EEEEEE\FFFFFF
+}
+ 
+
