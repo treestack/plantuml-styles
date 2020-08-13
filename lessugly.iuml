@@ -1,23 +1,37 @@
+!define COLOR_BACKGROUND #FFFFFF
+!define COLOR_BACKGROUND2 #EEEEEE
+!define COLOR_FOREGROUND #000000
+!define COLOR_BORDER #444444
+!define COLOR_ARROW #EA6A3D
+
+!define FONT_SANS IBM Plex Sans
+!define FONT_MONO IBM Plex Mono
+
+skinParam defaultFontStyle plain
+skinParam dpi 96
+
+skinparam linetype ortho
+
 skinparam {
     DPI 200
     Shadowing false
-    DefaultFontName IBM Plex Sans
-    DefaultMonospacedFontName IBM Plex Mono
-    DefaultFontColor black
+    DefaultFontName FONT_SANS
+    DefaultMonospacedFontName FONT_MONO
+    DefaultFontColor COLOR_FOREGROUND
     DefaultFontSize 14
 }
 
 skinparam class {
-    BackgroundColor #FFFFFF
-    BorderColor #444444
-    ArrowColor #EA6A3D
+    BackgroundColor COLOR_BACKGROUND
+    BorderColor COLOR_BORDER
+    ArrowColor COLOR_ARROW
     AttributeIconSize 0
     BorderThickness 1
-    HeaderBackgroundColor #EEEEEE
+    HeaderBackgroundColor COLOR_BACKGROUND2
 }
 
 skinparam package {
-    BackgroundColor #EEEEEE\FFFFFF
+    BackgroundColor COLOR_BACKGROUND2\COLOR_BACKGROUND
 }
  
 
