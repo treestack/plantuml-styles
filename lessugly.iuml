@@ -12,6 +12,8 @@ skinParam dpi 96
 
 skinparam linetype ortho
 
+set namespaceSeparator ::
+
 skinparam {
     DPI 200
     Shadowing false
@@ -34,4 +36,13 @@ skinparam package {
     BackgroundColor COLOR_BACKGROUND2\COLOR_BACKGROUND
 }
  
+skinparam interface {
+  backgroundColor COLOR_BACKGROUND
+  borderColor COLOR_BORDER
+}
 
+skinparam component {
+  BorderColor COLOR_BORDER
+  BackgroundColor COLOR_BACKGROUND
+  ArrowColor COLOR_ARROW
+}
