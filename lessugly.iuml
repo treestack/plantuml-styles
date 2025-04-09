@@ -7,20 +7,17 @@
 !define FONT_SANS IBM Plex Sans
 !define FONT_MONO IBM Plex Mono
 
-skinParam defaultFontStyle plain
-skinParam dpi 96
-
-skinparam linetype ortho
-
 set namespaceSeparator ::
 
 skinparam {
     DPI 200
     Shadowing false
+    defaultFontStyle PLAIN
     DefaultFontName FONT_SANS
     DefaultMonospacedFontName FONT_MONO
     DefaultFontColor COLOR_FOREGROUND
     DefaultFontSize 14
+    LineType ORTHO
 }
 
 skinparam class {
